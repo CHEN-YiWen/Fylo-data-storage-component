@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/CHEN-YiWen/Fylo-data-storage-component)
-- Live Site URL: [live site hosted by Github](https://your-live-site-url.com)
+- Live Site URL: [live site hosted by Github](https://chen-yiwen.github.io/Fylo-data-storage-component/)
 
 ## My process
 
