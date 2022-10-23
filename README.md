@@ -45,9 +45,9 @@ Users should be able to:
 
 ### What I learned
 
-- I use <code>progress<code> for the progress bar. However, I find it is hard to style it because I have to use presudo element <code>::-moz-progress-bar</code> and <code>::-webkit-progress-value</code>.
+- I use <code>progress</code> for the progress bar. However, I find it is hard to style it because I have to use presudo element <code>::-moz-progress-bar</code> and <code>::-webkit-progress-value</code>.
 
-- The part I struggle the most is positioning the white dot on the progress bar. At first I tried <code>::after</code> on the container <code>.bar<code>. But the position of the code would not stick in the same place. After checking out [MRZ.Code.Manufacture]'s(https://www.youtube.com/channel/UC8vDv2c3-wQfTnOr84CwH4Q) solution, I decided to make the dot as a <code>div<code>, which turned out to be way simpler to manipulate! 
+- The part I struggle the most is positioning the white dot on the progress bar. At first I tried <code>::after</code> on the container <code>.bar</code>. But the position of the code would not stick in the same place. After checking out [MRZ.Code.Manufacture]'s(https://www.youtube.com/channel/UC8vDv2c3-wQfTnOr84CwH4Q) solution, I decided to make the dot as a <code>div</code>, which turned out to be way simpler to manipulate! 
 
 ### Continued development
 
