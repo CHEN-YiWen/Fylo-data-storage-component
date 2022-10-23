@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 5rem;}
+    .attribution a { color: rgba(255,163,153,1); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="top">
+      <img src="images/logo.svg" alt="Fylo logo">
+      <div class="icons">
+        <img class="file" src="images/icon-document.svg" alt="icon of document">
+        <img class="folder" src="images/icon-folder.svg" alt="icon of folder">
+        <img class="cloud" src="images/icon-upload.svg" alt="icon of upload">
+      </div>
+      </section>
+    <section class="lower"> 
+      <p class="used-up">You’ve used <span>815 GB</span> of your storage</p>
+      <div class="bar">
+        <progress max="1000" value="815"></progress>
+        <div class="dot"></div>
+      </div>
+      <div class="bar-number">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+      </div>
+      <div class="bubble">
+        <div class="speakingbubble">
+        <p class="GB">185</p>
+        <p class="GB-left">GB Left</p>
+        </div>
+      </div>
+    </section>
+
+</main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/CHEN-YiWen">CHEN-YiWen</a>.
+  </footer>
+</body>
+</html>
